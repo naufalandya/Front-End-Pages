@@ -1,0 +1,18 @@
+.App {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 50px auto;
+  width: 800px;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 50px auto;
+}
+
+img {
+  display: inline-block;
+}
