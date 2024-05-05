@@ -14,8 +14,7 @@
     "imagekitio-react": "^4.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "rollup" : "@rollup/rollup-linux-x64-gnu"
-  },
+    "@rollup/rollup-linux-x64-gnu": "4.6.1"  },
   "devDependencies": {
     "@types/react": "^18.2.43",
     "@types/react-dom": "^18.2.17",
@@ -26,10 +25,13 @@
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.5",
     "typescript": "^5.2.2",
-    "vite": "^5.0.8"
+    "vite": "^5.0.8",
+    "@rollup/rollup-linux-x64-gnu": "4.6.1"
   },
 
-  "resolutions": {
-    "rollup": "npm:@rollup/wasm-node"
+  "optionalDependencies": {
+    "@rollup/rollup-linux-x64-gnu": "4.6.1"
   }
+
+
 }
