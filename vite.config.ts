@@ -7,9 +7,4 @@ export default defineConfig({
   // Other Vite config options...
   plugins: [react()],
 
-  esbuild: {
-    target: 'esnext',
-    platform: 'linux',
-  }
-  // Other Vite config options...
 });
