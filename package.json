@@ -13,7 +13,8 @@
     "axios": "^1.6.8",
     "imagekitio-react": "^4.0.0",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "rollup" : "@rollup/rollup-linux-x64-gnu"
   },
   "devDependencies": {
     "@types/react": "^18.2.43",
